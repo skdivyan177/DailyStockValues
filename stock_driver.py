@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-
+# the function to get the top 5 most active stocks from the website
 def get_top_5_most_active():
     url = "https://finance.yahoo.com/markets/stocks/most-active"
 
